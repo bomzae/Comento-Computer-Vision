@@ -4,7 +4,7 @@ import numpy as np
 # Depth Map 생성 코드
 def generate_depth_map():
 	# 이미지 로드
-	image = cv2.imread('sample.jpg')
+	image = cv2.imread('input/sample.jpg')
 
 	# 그레이스케일 변환
 	gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

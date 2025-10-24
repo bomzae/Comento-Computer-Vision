@@ -11,7 +11,6 @@ def generate_depth_map(image):
 	grayscale = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 	# 가짜 깊이 맵 적용
 	depth_map = cv2.applyColorMap(grayscale, cv2.COLORMAP_JET)
-	depth_map = depth_map.tolist()
 	return depth_map
 
 # 테스트 코드

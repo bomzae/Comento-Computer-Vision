@@ -6,7 +6,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 def generate_3d_point_and_visualization():
 	# 이미지 로드
-	image = cv2.imread('sample.jpg')
+	image = cv2.imread('input/sample.jpg')
 	if image is None:
 	    raise FileNotFoundError("이미지 파일을 찾을 수 없습니다.")
 
