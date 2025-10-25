@@ -19,11 +19,13 @@ Comento-Computer-Vision
 
 |─ input
 
-|	└─ sample.jpg
+|	└─ sample.jpg				# 깊이 맵 생성 샘플 이미지
+
+|	└─ sample2.jpg				# 객체 탐지 샘플 이미지
 
 |─ output
 
-|	└─ processed\_samples/
+|	└─ processed\_samples/		# 데이터 전처리 결과 이미지 폴더
 
 |		└─ image\_1.jpg
 
@@ -34,6 +36,12 @@ Comento-Computer-Vision
 |		└─ image\_4.jpg
 
 |		└─ image\_5.jpg
+
+|	└─ result.jpg				# 객체 탐지 결과 이미지
+
+|─ model
+
+|	└─ best.pt					# 객체(차, 사람, 자전거) 탐지 모델
 
 
 
